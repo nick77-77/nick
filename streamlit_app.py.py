@@ -13,7 +13,7 @@ class Config:
     UW_TOKEN = st.secrets.get("UW_TOKEN", "e6e8601a-0746-4cec-a07d-c3eabfc13926")
     EXCLUDE_TICKERS = {'MSTR', 'CRCL', 'COIN', 'META', 'NVDA','AMD', 'TSLA'}
     ALLOWED_TICKERS = {'QQQ', 'SPY', 'IWM'}
-    MIN_PREMIUM = 100000
+    MIN_PREMIUM = 50000
     LIMIT = 500
     SCENARIO_OTM_CALL_MIN_PREMIUM = 100000
     SCENARIO_ITM_CONV_MIN_PREMIUM = 50000
@@ -2841,3 +2841,4 @@ else:
     
     **The system learns and improves as you use it. Start tracking today!**
     """)
+
